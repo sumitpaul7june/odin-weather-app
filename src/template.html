@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <title>Webpack Template</title>
+  <title>Skycast</title>
 </head>
+
 <body>
-  <h1>Hello Webpack 👋</h1>
+  <div class="app">
+    <h1 class="title">SKYCAST</h1>
+
+    <form id="weather-form" class="search-form">
+      <input type="text" id="location" placeholder="Enter your location..." required minlength="2" />
+      <button type="submit">Search</button>
+      <button type="button" id="unit-toggle" class="unit-toggle">°C</button>
+    </form>
+
+
+    <div id="display"></div>
+  </div>
+
+  <footer class="footer">
+    Photo by
+    <a href="https://unsplash.com/photos/tree-under-blue-sky-during-daytime-8xznAGy4HcY" target="_blank">
+      Joshua Earle
+    </a>
+    on Unsplash
+  </footer>
 </body>
+
 </html>
